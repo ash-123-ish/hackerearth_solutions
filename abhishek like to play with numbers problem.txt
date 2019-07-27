@@ -1,0 +1,37 @@
+Abhisek likes to play with numbers. One day, he was solving math puzzles and he came across an interesting problem.
+
+A sorted list of N numbers are given and a number Num. We have to find the five numbers that are closest (numerically) to Num. A number x in the array is closest to Num if |Num-­x| is the smallest among all such x possible.
+
+Note: If the Num is present in given list, then it should be in the output.
+
+
+Constraints:
+
+5 < N <20
+
+1 <Num< 10000
+
+
+Input:
+
+First input line consists of 2 integers N followed by Num
+
+Second input line consists of N integers m1 m2 m3 .. mN denoting the numbers given in the list.
+
+where mi's are N numbers in sorted order.
+
+
+
+Output:
+
+p1 p2 p3 p4 p5
+
+where pi's are closest numbers in increasing order of absolute difference from Num. If there are two numbers with same difference, print the larger one first.
+
+
+
+SAMPLE INPUT 
+10 6
+1 2 3 4 5 6 7 8 9 10
+SAMPLE OUTPUT 
+6 7 5 8 4
